@@ -1,0 +1,23 @@
+.navbar {
+  background-color: white;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+@media (min-width: 992px) {
+  .menu {
+    display: none;
+  }
+}
+.logo {
+  height: 32px;
+  margin-left: 1rem;
+}
+.my-drawer {
+  width: 500px;
+}
+@media (min-width: 992px) {
+  .ant-drawer-content-wrapper {
+      width: 500px !important;
+  }
+}
